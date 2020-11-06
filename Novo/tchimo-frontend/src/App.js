@@ -9,6 +9,7 @@ import './App.css'
 import Logo from './static/images/logo.svg'
 
 import Home from './pages/Home/Home'
+import NotFound from './pages/NotFound/NotFound'
 import Login from './pages/Login/Login'
 import Signup from './pages/Signup/Signup'
 import List from './pages/Classes/List/List'
@@ -17,7 +18,9 @@ import Join from './pages/Classes/Join/Join'
 import Register from './pages/Classes/Register/Register'
 import Members from './pages/Classes/Members/Members'
 
+
 import { AuthContext, AuthProvider } from './contexts/AuthContext'
+
 
 const UnauthenticatedRoutes = () => (
   <Switch>
@@ -31,7 +34,7 @@ const UnauthenticatedRoutes = () => (
       <Home />
     </Route>
     <Route path="*">
-      <p>404 - Not Found</p>
+      <NotFound /> 
     </Route>
   </Switch>
 ) 

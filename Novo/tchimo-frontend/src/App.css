@@ -2,10 +2,11 @@
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .app {
@@ -34,7 +35,7 @@ body, html {
 }
 
 .notSupportedMessage {
-  color:#7aa6c7;
+  color: #7aa6c7;
   font-size: 1.5vw;
 }
 
@@ -88,7 +89,7 @@ body, html {
 
 .fieldContainer .errorMessage {
   color: white;
-  background-color: #FF6565;
+  background-color: #ff6565;
   border-radius: 0.2em;
   padding: 0.2em 0.3em;
   font-size: 0.8em;
